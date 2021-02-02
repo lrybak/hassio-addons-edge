@@ -16,7 +16,8 @@ jobs:
         with:
           continue-after-seconds: 1200
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.UPDATER_TOKEN }}
       - name: 🚀 Run Repository Updater
         uses: hassio-addons/repository-updater@v1.0.0
         with:
