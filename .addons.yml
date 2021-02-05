@@ -1,5 +1,5 @@
 ---
-channel: edge
+channel: edgee
 addons:
   owserver:
     repository: lrybak/addon-owserver
